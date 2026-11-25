@@ -1,0 +1,67 @@
+---
+title: "Quality Assurance (QA) Practices and Academic Quality Enhancement"
+author: <span style="color:#90c2d1;">Dr. Priyanga Talagala</span>
+institute: <span style="color:#90c2d1;">Quality Assurance Cell </br> Faculty of Information Technology</br> University of Moratuwa</span>
+date: <span style="color:#90c2d1;">26/11/2026</span>
+output:
+  xaringan::moon_reader:
+    chakra: libs/remark-latest.min.js
+    css: ["default", "myremark.css", "xaringan-themer.css"]
+    lib_dir: libs
+    nature:
+      ratio: "16:9"
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+header-includes: 
+- \usepackage{ulem}
+---
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+library(kableExtra)
+```
+
+
+```{r xaringan-themer, include=FALSE, warning=FALSE}
+library(xaringanthemer)
+style_mono_accent(
+   base_color = "#0e1347",
+   title_slide_background_color = "#0e1347",
+  inverse_background_color = "#0e1347",
+  header_font_google = google_font("Josefin Sans"),
+  text_font_google   = google_font("Montserrat", "300", "300i"),
+  code_font_google   = google_font("Fira Mono"),
+  title_slide_text_color = "#ffea00",
+  inverse_header_color = "#90c2d1",
+   inverse_text_color = "#ffea00",
+   header_background_text_color = "#90c2d1",
+   text_font_size = "1.3rem",
+  )
+```
+
+
+- Introduction to QA in Higher Education
+- Internal Quality Assurance (IQA) and External Quality Assurance (EQA)
+- Programme review and accreditation processes
+- Curriculum development - Preparing course specifications and programme specifications
+- Maintaining course files and academic documentation
+- Student feedback collection and analysis
+- Continuous Quality Improvement (CQI) practices
+- Introduction to the Sri Lanka Qualifications Framework (SLQF) and quality standards
+- QA-related university policies, procedures, and circulars
+- Global perspective on QA
+
+---
+class: center, middle, inverse
+
+
+
+
+## Check
+---
+
+
+```{r   out.width = "60%", echo = FALSE, fig.cap='', fig.align='center'}
+knitr::include_graphics("fig/Python-Logo.png")
+
