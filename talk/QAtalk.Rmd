@@ -1,7 +1,7 @@
 ---
 title: "Quality Assurance (QA) Practices and Academic Quality Enhancement"
 author: <span style="color:#90c2d1;">Dr. Priyanga Talagala</span>
-institute: <span style="color:#90c2d1;">Quality Assurance Cell </br> Faculty of Information Technology</br> University of Moratuwa</span>
+institute: <span style="color:#90c2d1;">Directory </br> Quality Assurance Cell </br> Faculty of Information Technology</br> University of Moratuwa</span>
 date: <span style="color:#90c2d1;">26/11/2026</span>
 output:
   xaringan::moon_reader:
@@ -51,14 +51,6 @@ style_mono_accent(
 - <span style="color:red;">Introduction to the Sri Lanka Qualifications Framework (SLQF) and quality standards</span>
 - <span style="color:red;">QA-related university policies, procedures, and circulars</span>
 - <span style="color:red;">Global perspective on QA</span>
-
----
-class: center, middle, inverse
-
-
-
-
-## Check
 
 ---
 
@@ -137,6 +129,299 @@ Document | 	Purpose
 - Engineering – IESL: Evaluates engineering degree programmes against engineering education standards.
 - [UGC Commission Circular No. 08/2018](https://www.ugc.ac.lk/attachments/2028_Comm%20Circular%208_2018.pdf?utm_source=chatgpt.com) requires **computing degrees** to align with ACM/IEEE international curriculum guidelines.
 ---
-```{r   out.width = "60%", echo = FALSE, fig.cap='', fig.align='center'}
-knitr::include_graphics("fig/Python-Logo.png")
+### Curriculum Development: Programme Specifications and Course Specifications
 
+
+**Important QA requirements**
+
+- Map Course Learning Outcomes (CLOs) to Programme Learning Outcomes (PLOs).
+- Ensure alignment between learning outcomes, teaching activities and assessment.
+- Check the programme's alignment with SLQF descriptors.
+- Demonstrate progression in complexity across academic years.
+- Follow university procedures for curriculum approval and revision.
+
+---
+
+Documents to consult
+
+- [SLQF (2015)](https://eugc.ugc.ac.lk/qac/downloads/SLQF_2016_en.pdf) – Qualification descriptors and credit requirements.
+- [UGC Code of Practice on Programme Approval, Monitoring and Review](https://eugc.ugc.ac.lk/qac/downloads/Part%20V.%20Program%20approval,%20monitoring%20and%20review.pdf).
+- [UGC Manual for Review of Undergraduate Study Programmes (2023)](https://eugc.ugc.ac.lk/qac/downloads/PR-manual-final-1-Version-3-amended-28-Dec-2015-3.pdf).
+- [Application for Approval of UG & PG Programs](https://eugc.ugc.ac.lk/qac/downloads/circulars/Application-for-Approval-of-UG-PG-Programs.pdf)
+- [Applications for Programmes (New/Revision)](https://eugc.ugc.ac.lk/qac/downloads.html)
+- University Curriculum Development Policy / Programme Approval Procedure.
+- Faculty and university-approved Programme Specification and Course Specification templates.
+
+---
+
+### Maintaining Course Files and Academic Documentation
+
+**Course File**: A structured collection of academic documents and evidence maintained for each course/module to demonstrate how the course was planned, delivered, assessed, evaluated and improved.
+
+- Maintain an updated course file for every course offering.
+- Keep evidence of actual delivery, **not just planned activities**.
+- Retain assessment and moderation evidence according to university regulations.
+- Document changes made in response to student feedback and examination performance.
+- Ensure consistency between the approved course specification and actual delivery.
+- Maintain electronic records with appropriate access controls and version management.
+
+---
+
+Relevant reference documents
+
+- UGC Code of Practice on Assessment of Students.
+- UGC Code of Practice on Student Feedback.
+- UGC Code of Practice on External Assessors.
+- UGC Manual for Review of Undergraduate Study Programmes (2023).
+- University Examination Regulations and Examination Procedures.
+- Faculty/CQA course-file guidelines and record-keeping templates.
+
+---
+class: center, middle, inverse
+
+
+# Session 2
+
+---
+class: center, middle, inverse
+
+## Student feedback collection and analysis
+
+---
+
+## Student feedback collection and analysis
+
+# Student feedback is evidence. It is not, by itself, a verdict on quality.
+
+- Student feedback is <span style="color:red;">one source of evidence </span> about the learning experience.
+- Feedback can identify problems that academics may not see themselves.
+- <span style="color:red;">Collecting feedback without responding to it creates survey fatigue and undermines trust. </span> --> **GAP**
+
+---
+
+### What should we collect feedback on?
+
+Four areas of feedback
+
+1. **1. Teaching & learning** (Clarity of explanations, pace, learning activities, accessibility of learning materials)
+
+2. **2. Assessment** (Alignment with learning outcomes, feedback on assessments, workload)
+
+3. **3. Resources & support** (LMS, labs, tutorial)
+
+4. **4. Student experience** (Workload, scheduling, engagement)
+
+<span style="color:red;">Every feedback question should have a potential use.
+</span>
+
+
+---
+### Triangulation : use different types of evidence to understand the same issue.
+
+- Student feedback --> What students experienced
+- Assessment results --> What students demonstrated
+- Student attendance --> What students demonstrated
+- Peer observation --> What a colleague observed --> **Faculty Peer Review Guideline Document**
+- Course and programme review --> What the evidence suggests at a wider level
+
+<!--Validation-->
+
+---
+
+class: center, middle, inverse
+
+# Peer Reviewer = "Critical friend"
+
+--
+
+A "critical friend" is a trusted person who combines genuine support with honest, constructive critique to help you improve your work or thinking.
+
+---
+### Tools and resources already available in the Sri Lankan QA system
+
+- [UGC Code of Practice on Student Feedback](https://eugc.ugc.ac.lk/qac/downloads/Codes%20of%20Practice%20on%20Student%20Feedback.pdf)
+- [UGC Code of Practice on Peer Observation](https://eugc.ugc.ac.lk/qac/downloads/Code%20of%20Practice%20on%20Peer%20Observation.pdf)
+- Examination and assessment reports --> Moderation forms
+- Internal undergraduate satisfaction surveys
+- Graduate/employability surveys
+
+---
+
+class: center, middle, inverse
+
+## Continuous Quality Improvement (CQI) practices
+
+
+---
+class: center, middle
+
+## Continuous Quality Improvement (CQI) practices
+
+.pull-left[
+
+## Quality assurance
+
+**Are we meeting the required standards?**
+
+(Documentation , Monitoring, Evidence)]
+
+.pull-right[
+
+## Quality enhancement
+
+**How can we make it better?**
+
+(Innovation, Reflection, Improvement)]
+
+---
+
+### The Deming Cycle
+
+Four-step iterative method for continuous process and quality improvement (PDCA (Plan–Do–Check–Act) PDSA (Plan–Do–Study–Act))
+
+```{r   out.width = "60%", echo = FALSE, fig.cap='', fig.align='center'}
+knitr::include_graphics("fig/pdca.png")
+
+```
+
+*image source* https://flevy.com/blog/wp-content/uploads/2016/12/pdca.png
+---
+class: center, middle, inverse
+
+# "Closing the loop” is the most important part
+
+---
+
+Example : A closed-loop student feedback process
+
+- **Collect** - Student feedback, assessment performance, progression data, peer observation
+- **Analyse** - Identify trends, problems and possible causes
+- **Act** - Decide and implement a targeted intervention
+- **Evaluate** - <span style="color:red;">Check whether the intervention  made a difference</span>
+- **Communicate** - <span style="color:red;">Inform students and relevant staff what was changed and why</span>
+
+---
+class: center
+
+## Example of closing the loop
+
+Students reported	|Lecturer action |	Evidence of follow-up
+-------------------|--------------------|--------------------------
+Tutorials were too short	|Added guided practice (Take home assignment)	| Participation and performance monitored
+Assignment instructions were unclear	| Revised instructions and rubric |	Fewer clarification requests
+Software access was difficult|	Added setup guide and alternatives|	Access problems monitored (Mid vs End Semester feedback)
+
+---
+
+class: center, middle, inverse
+
+## Introduction to the Sri Lanka Qualifications Framework (SLQF) and quality standards
+
+---
+.pull-left[
+
+[Sri Lanka Qualifications Framework (SLQF) ](https://www.ugc.ac.lk/attachments/1156_SLQF_2016_en.pdf)
+
+- Nationally consistent framework for higher education qualifications 
+- Defines 12 qualification levels, from certificates to doctoral degrees
+- The expected learning outcomes at each qualification level.
+- The minimum volume of learning required for each qualification.
+- Entry requirements and opportunities to progress to higher qualifications.
+
+].pull-right[
+```{r   out.width = "90%", echo = FALSE, fig.cap='', fig.align='center'}
+knitr::include_graphics("fig/slqf.png")
+
+```
+
+]
+
+<!--BSc Honours degree is at SLQF Level 6.-->
+
+---
+class: middle
+
+.pull-left[
+
+```{r   fig.height=15, echo = FALSE, fig.cap='', fig.align='center'}
+knitr::include_graphics("fig/minimum.png")
+
+```
+.
+].pull-right[
+
+
+The 30 credits after SLQF Level 5 represent the minimum additional learning required beyond a Bachelor's Degree to obtain a Bachelor's Honours Degree
+]
+
+<!--BSc Honours degree is at SLQF Level 6.-->
+---
+
+
+- The UGC's  [Manual for Review of Undergraduate Study Programmes (2019)](https://eugc.ugc.ac.lk/qac/downloads/PR-manual-final-1-Version-3-amended-28-Dec-2015-3.pdf) (Second Edition, 2023) is a key practical reference for academics and programme teams.
+- It contains criteria, standards, best practices and guidance for self-evaluation of undergraduate programmes.
+
+.pull-left[
+### SLQF 
+
+Defines what a degree should represent
+].pull-right[ 
+
+###Review Manual
+
+Evaluates how well the degree programme delivers it.]
+
+
+---
+
+class: center, middle, inverse
+
+## QA-related university policies, procedures, and circulars
+---
+class: center, middle
+
+QA-related university policies, procedures, and circulars
+
+# [UGC - Quality Assurance Council's official website](https://eugc.ugc.ac.lk/qac/index.html) 
+
+
+```{r   out.width="20%", echo = FALSE, fig.cap='', fig.align='center'}
+knitr::include_graphics("fig/bookmark.png")
+
+```
+
+<!--Bookmark the UGC QA portal instead of searching for QA documents every time.-->
+
+---
+
+Key message
+
+## QA documents are not just something to read. They are decision-making tools.
+
+They tell us:
+- What is required?
+- Who has authority?
+- What process should be followed?
+- What evidence should be provided?
+- What approval is required?
+- What must be recorded?
+
+---
+
+### Global Perspective on Quality Assurance (QA)
+
+- International QA Frameworks -  European Standards and Guidelines (ESG) (Europe), Quality Assurance Agency (QAA) (UK) and Tertiary Education Quality and Standards Agency (TEQSA) (Australia).
+- Programme Accreditation- Independent evaluation against academic and professional standards.
+- <span style="color:red;">External Review- Evaluation by independent local and international experts.</span>
+- International Benchmarking - Comparing curricula, credits and learning outcomes with global universities.
+- Stakeholder Engagement: Involving students, employers, alumni and indutry in curriculum revision
+- Evidence-Based Evaluation - Using graduate outcomes, student performance and employer feedback.
+
+
+---
+class: center, middle, inverse
+# UoM VISION
+
+## To be a globally recognized University with an empowered environment for nurturing world-class graduates.
+
+<!--Quality Assurance is the bridge between our university vision and its achievement-->
